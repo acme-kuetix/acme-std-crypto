@@ -1,0 +1,137 @@
+{
+  "crypto/crypto": {
+    "info": {
+      "go_module": "github.com/acme-kuetix/acme-std-crypto",
+      "namespace": "crypto",
+      "class": "crypto",
+      "label": "Crypto Module",
+      "description": "Handles crypto operations for crypto service"
+    },
+    "methods": [
+      {
+        "value": "Compare",
+        "label": "Compare(value string, hash string) (r domain.FlowStepResult)",
+        "names": "Compare(value, hash) r",
+        "types": "Compare(string, string) domain.FlowStepResult",
+        "description": "Function with 2 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-crypto",
+          "file_path": "modules/crypto/transitions/crypto.go",
+          "module_path": "modules",
+          "namespace": "crypto",
+          "class": "crypto",
+          "name": "Compare",
+          "receiver_type": "*cryptoTransitions",
+          "num_in": 2,
+          "num_out": 1,
+          "arg_types": [
+            "string",
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value",
+            "hash"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "Hash",
+        "label": "Hash(value string) (r domain.FlowStepResult)",
+        "names": "Hash(value) r",
+        "types": "Hash(string) domain.FlowStepResult",
+        "description": "Function with 1 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-crypto",
+          "file_path": "modules/crypto/transitions/crypto.go",
+          "module_path": "modules",
+          "namespace": "crypto",
+          "class": "crypto",
+          "name": "Hash",
+          "receiver_type": "*cryptoTransitions",
+          "num_in": 1,
+          "num_out": 1,
+          "arg_types": [
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "Hash",
+        "label": "Hash(value string) (r domain.FlowStepResult)",
+        "names": "Hash(value) r",
+        "types": "Hash(string) domain.FlowStepResult",
+        "description": "Function with 1 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-crypto",
+          "file_path": "modules/crypto/transitions/crypto.go",
+          "module_path": "modules",
+          "namespace": "crypto",
+          "class": "crypto",
+          "name": "Hash",
+          "receiver_type": "*cryptoTransitions",
+          "num_in": 1,
+          "num_out": 1,
+          "arg_types": [
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      },
+      {
+        "value": "Compare",
+        "label": "Compare(value string, hash string) (r domain.FlowStepResult)",
+        "names": "Compare(value, hash) r",
+        "types": "Compare(string, string) domain.FlowStepResult",
+        "description": "Function with 2 input(s) and 1 output(s)",
+        "method": {
+          "go_module": "github.com/acme-kuetix/acme-std-crypto",
+          "file_path": "modules/crypto/transitions/crypto.go",
+          "module_path": "modules",
+          "namespace": "crypto",
+          "class": "crypto",
+          "name": "Compare",
+          "receiver_type": "*cryptoTransitions",
+          "num_in": 2,
+          "num_out": 1,
+          "arg_types": [
+            "string",
+            "string"
+          ],
+          "return_types": [
+            "domain.FlowStepResult"
+          ],
+          "arg_names": [
+            "value",
+            "hash"
+          ],
+          "return_names": [
+            "r"
+          ]
+        }
+      }
+    ]
+  }
+}
